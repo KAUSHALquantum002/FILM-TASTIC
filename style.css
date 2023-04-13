@@ -1,0 +1,217 @@
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.bg{
+    background-color: black;
+    background-image: url("./Images/1457553.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.margin_dene_ka_kaam_kar_de_bhai{
+    margin-top:175px;
+    opacity: 0;
+}
+
+.heading{
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    padding-top: 20px;
+    /* line-height: 107px; */
+    color: #d1d1d1;
+}
+
+#SLIDE_BG{
+    /* width: 100%;
+    height: 100vh; */
+    background-position: center center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 30s linear infinite 0s;
+    background-image: url('./Images/ant_man.jpg');
+}
+
+@keyframes slideBg{
+    0% {
+        background-image: url('./Images/the_boys.png');
+    }
+    12.5% {
+        background-image: url('./Images/ant_man.jpg');
+    }
+    25% {
+        background-image: url('./Images/ant_man.jpg');
+    }
+    37.5% {
+        background-image: url('./Images/John_wick.jpg');
+    }
+    50% {
+        background-image: url('./Images/money_heist.jpg');
+    }
+    62.5% {
+        background-image: url('./Images/moon_knight.jpg');
+    }
+    75%{
+        background-image: url('./Images/kota_factory.jpg');
+    }
+    87.5%{
+        background-image: url('./Images/college_romance.jpg');
+    }
+    100%{
+        background-image: url('./Images/uncharted.jpg');
+    }
+
+}
+
+
+.add_btn{
+    position: absolute;
+    /* align-content: center;*/
+    width: 150px;
+    /* margin-left: 50%; */
+left: 43.5%;
+top: 191px;
+
+background: #e4c00af2;
+border-radius: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.add_btn:hover{
+    color: black;
+    background: #FBFF1E;
+    transition-duration: 0.5s;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-light{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 96px;
+
+color: #ffffff;
+}
+
+.imdb{
+    color: white;
+}
+
+.poster{
+    height: 150px;
+    width: 100%;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 23px 10px  rgba(255, 255, 255, 0.658);
+    border-radius: 10px;
+}
+
+table td{
+    padding: 65px 10px 65px 10px;
+    margin:50px;
+}
+
+.text_light_td{
+    text-align: center;
+    width: 40%;
+}
+
+.imdb{
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 36px;
+color: #ffffff;
+width: 15%;
+}
+
+.imdb_text{
+    color: #FBFF1E;
+}
+
+.checked{
+    color: #FBFF1E;
+}
+
+table{
+    width: 100%;
+}
+
+.delete_btn{
+    position: absolute;
+    /* align-content: center;*/
+    /* margin-left: 50%; */
+
+
+
+background: #e73434f3;
+border-radius: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.delete_btn:hover{
+    color: black;
+    background: rgb(255, 0, 0);
+    transition-duration: 0.5s;
+}
+
+.poster_td{
+    width: 27%;
+    padding: 65px 30px 65px 30px;
+}
+
+td{
+    text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b99c08f2;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FBFF1E;
+    transition-duration: 0.5s;
+  }

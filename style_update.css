@@ -1,0 +1,182 @@
+.margin_dene_ka_kaam_kar_de_bhai{
+    margin-top:175px;
+    opacity: 0;
+}
+
+#SLIDE_BG{
+    /* width: 100%;
+    height: 100vh; */
+    background-position: center center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 30s linear infinite 0s;
+    background-image: url('./Images/ant_man.jpg');
+}
+
+@keyframes slideBg{
+    0% {
+        background-image: url('./Images/the_boys.png');
+    }
+    12.5% {
+        background-image: url('./Images/ant_man.jpg');
+    }
+    25% {
+        background-image: url('./Images/ant_man.jpg');
+    }
+    37.5% {
+        background-image: url('./Images/John_wick.jpg');
+    }
+    50% {
+        background-image: url('./Images/money_heist.jpg');
+    }
+    62.5% {
+        background-image: url('./Images/moon_knight.jpg');
+    }
+    75%{
+        background-image: url('./Images/kota_factory.jpg');
+    }
+    87.5%{
+        background-image: url('./Images/college_romance.jpg');
+    }
+    100%{
+        background-image: url('./Images/uncharted.jpg');
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b99c08f2;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FBFF1E;
+    transition-duration: 0.5s;
+  }
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.heading{
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 107px;
+color: #d1d1d1;
+}
+
+label{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+padding-top:50px;
+padding-bottom:10px;
+}
+
+input{
+    font-family: 'Poppins';
+    font-weight: 700;
+    background: #808080;
+    opacity: 0.6;
+    border-radius: 7px;  
+}
+
+.form-control{
+    color: black;
+}
+
+.Done_btn{    
+margin-top: 70px;
+padding-left: 15px;
+padding-right: 15px;
+background: #3ae65af3;
+border-radius: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.Done_btn:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(30, 255, 0);
+    transition-duration: 0.5s;
+}
+
+.text_ligh{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 96px;
+
+color: #ffffff;
+}
+
+a.text_ligh:hover{
+    color: white;
+}
+
+.Cancel_btn{    
+    margin-left: 82%;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #e63a3af3;
+    border-radius: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+    
+.Cancel_btn:hover{
+        color: rgb(255, 255, 255);
+        background: rgb(255, 0, 0);
+        transition-duration: 0.5s;
+}
+
+a{
+    color:#000000;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.form-control{
+    font-weight: 700;
+}
